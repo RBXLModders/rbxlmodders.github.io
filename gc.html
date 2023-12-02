@@ -28,6 +28,22 @@
     <a class="navbar-item" href="sl.html">
       Panic Button
   </a>
+  <a class="navbar-item" onclick="openGame()">
+  About:Blank Cloak
+  </a>
+  <script>
+		function openGame() {
+var win = window.open()
+var url = "https://cezms.github.io/index.html"
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+window.location.replace("https://classroom.google.com")
+}
+	</script>
      </div>
     </nav>
     <div class="underdanav" style="margin-top: 30px;">
@@ -41,6 +57,7 @@
   <a class="button is-dark" href="g/chromedino/index.html"><img src="gi/chromedino.jpg" width="25px" height="25px" style="margin-right: 7px;">Chrome Dinosaur Game</a>
   <a class="button is-dark" href="g/minesweeper/index.html"><img src="gi/minesweeper.jpg" width="25px" height="25px" style="margin-right: 7px;">Minesweeper</a>
   <a class="button is-dark" href="g/ovo/index.htm"><img src="gi/ovo.png" width="25px" height="25px" style="margin-right: 7px;">OvO</a>
+  <a class="button is-dark" href="g/geometrydash/index.html"><img src="gi/gdlogo.PNG" width="25px" height="25px" style="margin-right: 7px;">Geometry Dash</a>
       </center>
     </div>
     <div class="feet" style="margin-top: 25px;">

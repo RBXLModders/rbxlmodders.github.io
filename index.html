@@ -28,6 +28,22 @@
         <a class="navbar-item" href="sl.html">
           Panic Button
       </a>
+      <a class="navbar-item" onclick="openGame()">
+        About:Blank Cloak
+        </a>
+        <script>
+          function openGame() {
+      var win = window.open()
+      var url = "https://cezms.github.io/index.html"
+      var iframe = win.document.createElement('iframe')
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
+      iframe.style.border = "none";
+      iframe.src = url
+      win.document.body.appendChild(iframe)
+      window.location.replace("https://classroom.google.com")
+      }
+        </script>
          </div>
         </nav>
     <div class="underdanav" style="margin-top: 40px;">
