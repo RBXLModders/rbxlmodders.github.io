@@ -2,7 +2,17 @@
 <html class="has-background-black-ter">
 <head>
   <link rel="stylesheet" href="bulma.css">
+  <link rel="stylesheet" href="xtra.css">
   <title>CEZMS</title>
+  <script src="particles.js"></script>
+  <script>
+    window.onload = function() {
+  Particles.init({
+    selector: '.background',
+    color: '#636363'
+  });
+};
+  </script>
 </head>
 <body>
 <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
@@ -66,5 +76,7 @@
     <p class="is-size-6 has-text-white">contact me on discord: zombineer256</p>
   </center>
     </div>
+    <canvas class="background"></canvas>
+    <script src="particles.js"></script>
     </body>
 </html>
